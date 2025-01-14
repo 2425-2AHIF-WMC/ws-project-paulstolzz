@@ -82,6 +82,18 @@ body {
     left: 10px;
 }
 
+.sidebar p {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 2s ease-out forwards;
+}
+
+.sidebar ul{
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 2s ease-out forwards;
+}
+
 .textbody {
     font-size: 18px;
     margin-right: 10rem;
@@ -97,14 +109,7 @@ body {
     width: 30rem;
 }
 
-.backbotton
-{
-    position: fixed;
-    margin-left: 1rem;
-    margin-top: 1rem;
-    text-decoration: none;
-    color: black;
-}
+
 
 .animated-link {
     display: inline-block;
@@ -183,5 +188,23 @@ body {
     padding-bottom: 2rem;
 }
 
+.backbotton{
+    position: fixed;
+    background: linear-gradient(to top, #d3f2fb, #97e3fa);
+    width: 5rem;
+    right: 1rem;
+    bottom: 1rem;
+    padding: 1rem;
+    float: left;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 15px;
 
+}
+
+.backbotton:hover{
+    box-shadow: 2px 2px 6px #000000;
+}
 
